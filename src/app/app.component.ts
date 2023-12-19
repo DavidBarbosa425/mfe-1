@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent implements OnInit {
-  
+   suaVariavel: any
   ngOnInit(): void {
     this.obterDoLocalStorage()
     
@@ -14,8 +14,8 @@ export class AppComponent implements OnInit {
   
   obterDoLocalStorage(): void {
     
-    const suaVariavel = localStorage.getItem('suaChave');
-    console.log('Valor recuperado do localStorage:', suaVariavel);
+     this.suaVariavel = localStorage.getItem('sessaoApp');
+    console.log('Valor recuperado do localStorage:',this.suaVariavel);
   }
  
 }
