@@ -14,18 +14,18 @@ import { BrowserModule } from "@angular/platform-browser";
     CommonModule,
     FlexLayoutModule,
     MaterialModule,
-    RouterModule,
-    BrowserModule,
-    BrowserAnimationsModule
+    // RouterModule,
+    // BrowserModule,
+    // BrowserAnimationsModule
 
   ],
   imports : [
     CommonModule,
     FlexLayoutModule,
     MaterialModule,
-    RouterModule,
-    BrowserModule,
-    BrowserAnimationsModule
+    // RouterModule,
+    // BrowserModule,
+    // BrowserAnimationsModule
   ]
 })
 
